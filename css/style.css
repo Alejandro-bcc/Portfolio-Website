@@ -73,11 +73,12 @@ html {
     background-color: var(--BG-COLOR);
     background-image: var(--BG-IMAGE);
     color: var(--COLOR);
+    overflow-x: hidden;
 }
 
 body {
-    min-width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 ul {
@@ -430,7 +431,7 @@ a:any-link {
 
     /*HOME*/
     .main__section--home {
-        padding-left: 10vw;
+        padding-left: clamp(0.6rem, 10vw, 1.2rem);
     }
 
     /* ABOUT ME */
