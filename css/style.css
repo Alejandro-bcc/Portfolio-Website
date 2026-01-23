@@ -73,12 +73,10 @@ html {
     background-color: var(--BG-COLOR);
     background-image: var(--BG-IMAGE);
     color: var(--COLOR);
-    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
-    overflow-x: hidden;
 }
 
 ul {
@@ -99,6 +97,7 @@ a:any-link {
     top: 0;
     display: flex;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .header__right-container {
